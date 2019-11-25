@@ -16,5 +16,6 @@
     "url": "https://github.com/kornis/dh-movies/issues"
   },
   "homepage": "https://github.com/kornis/dh-movies#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {}
 }

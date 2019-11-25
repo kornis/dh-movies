@@ -1,0 +1,43 @@
+<html style="height: 100% !important; box-sizing:border-box !important">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body style="position: relative !important; min-height: 100% !important;">
+       
+            <div class="row">
+                <div class="col-md-12" style="padding: 2rem; text-align: center;">
+                    <h1>{titulo}</h1>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 left-side">
+
+                </div>
+                <div class="col-md-8 contenido">
+                    <div class="container" >
+                        <p class="seccion">{seccion}</p>
+                        <span>{contenido}</span>
+                    </div>
+                </div>
+                <div class="col-md-2 right-side">
+
+                </div>
+            </div>
+        
+        <div class="row">
+            <div class="col-md-12" style="position: absolute !important; right: 0 !important; bottom: 0 !important; left: 0 !important; padding: 1rem !important; background-color: #efefef;text-align: center !important;">
+                <div class="footer" >   
+                    <div class="container"> 
+                        <span id="href"></span>
+                    </div>
+            </div>
+            </div>
+        </div>
+
+    </body>
+<script>
+    document.getElementById("href").innerHTML = "Recordá que podes visitar las secciones: <a href='"+window.location.host +"/en-cartelera'>En Cartelera</a> - <a href='"+window.location.host +"/mas-votadas'>Mas Votadas</a> - <a href='"+window.location.host +"/sucursales'>Sucursales</a> - <a href='"+window.location.host +"/contacto'>Contacto</a> - <a href='"+window.location.host +"/preguntas-frecuentes'>Preguntas Frecuentes</a>";
+</script>
+</html>
